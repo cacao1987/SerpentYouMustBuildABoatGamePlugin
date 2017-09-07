@@ -3,7 +3,7 @@ from lib.game import Game
 from .api import api
 
 
-class YouMustBuildABoatGame(Game):
+class SerpentYouMustBuildABoatGame(Game):
 
     def __init__(self, **kwargs):
         kwargs["platform"] = "steam"

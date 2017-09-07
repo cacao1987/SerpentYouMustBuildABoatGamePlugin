@@ -1,14 +1,14 @@
 import offshoot
 
 
-class YouMustBuildABoatGamePlugin(offshoot.Plugin):
-    name = "YouMustBuildABoatGamePlugin"
+class SerpentYouMustBuildABoatGamePlugin(offshoot.Plugin):
+    name = "SerpentYouMustBuildABoatGamePlugin"
     version = "0.1.0"
 
     libraries = []
 
     files = [
-        {"path": "you_must_build_a_boat_game.py", "pluggable": "Game"}
+        {"path": "serpent_you_must_build_a_boat_game.py", "pluggable": "Game"}
     ]
 
     config = {
@@ -25,4 +25,4 @@ class YouMustBuildABoatGamePlugin(offshoot.Plugin):
 
 
 if __name__ == "__main__":
-    offshoot.executable_hook(YouMustBuildABoatGamePlugin)
+    offshoot.executable_hook(SerpentYouMustBuildABoatGamePlugin)
